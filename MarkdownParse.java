@@ -21,7 +21,7 @@ public class MarkdownParse {
             int openParen = markdown.indexOf("(", nextCloseBracket);
             int closeParen = markdown.indexOf(")", openParen);
 		int length_of = markdown.substring(openParen + 1, closeParen).length();
-		if (!markdown.substring(openParen + 1, closeParen).substring(length_of-3).equals(".png")){
+		if (!markdown.substring(openParen + 1, closeParen).substring(length_of-3).equals("png")){
             toReturn.add(markdown.substring(openParen + 1, closeParen));}
             currentIndex = closeParen + 1;
         }
