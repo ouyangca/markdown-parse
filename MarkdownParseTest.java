@@ -35,10 +35,10 @@ public class MarkdownParseTest {
 //         List links3 = List.of("www.edwin.com");
 //         assertEquals("checks result 3", links3, MarkdownParse.getLinks(contents3));
 
-        Path filename4 = Path.of("test4-file.md");
-        String contents4 = Files.readString(filename4);
-        List links4 = List.of("https://CSE15L.com");
-        assertEquals("checks result 4", links4, MarkdownParse.getLinks(contents4));
+//         Path filename4 = Path.of("test4-file.md");
+//         String contents4 = Files.readString(filename4);
+//         List links4 = List.of("https://CSE15L.com");
+//         assertEquals("checks result 4", links4, MarkdownParse.getLinks(contents4));
 
     }
 
